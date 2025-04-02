@@ -8,20 +8,29 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "ui": "pnpm --filter @repo/ui ui"
+    "ui": "pnpm --filter @shared ui",
+    "check": "turbo check"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "prettier": "catalog:",
-    "turbo": "2.1.1"
+    "@shared/eslint-config": "workspace:*",
+    "@shared/typescript-config": "workspace:*",
+    "glob": "^11.0.1",
+    "prettier": "^3.1.1",
+    "turbo": "latest"
   },
   "packageManager": "pnpm@9.12.0",
   "engines": {
-    "node": ">=20.17.0"
+    "node": ">=18"
   },
   "volta": {
     "node": "20.17.0",
-    "pnpm": "9.12.0"
+    "pnpm": "10.5.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "axios": "^1.8.4",
+    "next-auth": "^4.24.6",
+    "nuqs": "^2.4.1",
+    "query-string": "^9.1.1"
   }
 }

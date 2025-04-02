@@ -1,0 +1,10 @@
+// Auto-generated Prisma enums
+
+export enum AuthUserRole {
+  ADMIN = 'ADMIN',
+  PROVIDER_SUPER_ADMIN = 'PROVIDER_SUPER_ADMIN',
+  PROVIDER_ADMIN = 'PROVIDER_ADMIN',
+  SUPER_AGENT = 'SUPER_AGENT',
+  AGENT = 'AGENT',
+  CASHIER = 'CASHIER'
+}

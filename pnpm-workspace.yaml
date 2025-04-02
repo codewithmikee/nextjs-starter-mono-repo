@@ -1,6 +1,8 @@
 packages:
   - "apps/*"
   - "packages/*"
+  - "shared"
+  - "rambo-shared"
 
 catalog:
   lucide-react: ^0.451.0
