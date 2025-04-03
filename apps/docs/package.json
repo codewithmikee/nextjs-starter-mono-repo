@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3001",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0",
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@shared": "workspace:*",
+    "@shared/client": "workspace:*",
     "next": "14.2.8",
-    "react": "catalog:react18",
-    "react-dom": "catalog:react18"
+    "react": "workspace:*",
+    "react-dom": "workspace:*"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "14.2.8",

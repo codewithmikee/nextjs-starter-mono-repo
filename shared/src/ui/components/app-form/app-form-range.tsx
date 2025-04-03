@@ -75,7 +75,7 @@ export function SimpleFormRange<T extends FieldValues>({
                 max={max}
                 step={step}
                 value={[field.value || defaultValue]}
-                onValueChange={(vals) => field.onChange(vals[0])}
+                onValueChange={(vals: number[]) => field.onChange(vals[0])}
                 className={cn(
                   'w-full',
                   disabled && 'cursor-not-allowed opacity-50'

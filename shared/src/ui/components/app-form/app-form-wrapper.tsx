@@ -9,7 +9,7 @@ import { GENERAL_ERROR_MESSAGE } from '@/constants';
 import { Separator } from '@/ui-components';
 import { cn } from '@/utils';
 import { AppFormAlert, FormActions } from './commons/form-common-elements';
-import { getErrorMessage } from '@/lib/api-configurations/api-helpers';
+import { getErrorMessage } from '@/lib/api-helpers';
 import { z } from 'zod';
 import { toast } from 'sonner';
 const defaultButtonProps = {

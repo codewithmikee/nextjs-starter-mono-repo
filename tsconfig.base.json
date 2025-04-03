@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom", "dom.iterable", "es2017"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@shared/ui": ["./shared/src/ui/index.ts"],
+      "@shared/ui-components": ["./shared/src/ui-components/index.ts"],
+      "@shared/ui-components/*": ["./shared/src/ui-components/*"],
+      "@shared/utils": ["./shared/src/utils/index.ts"],
+      "@shared/constants": ["./shared/src/constants/index.ts"],
+      "@shared/hooks": ["./shared/src/hooks/index.ts"],
+      "@shared/lib": ["./shared/src/lib/index.ts"],
+      "@shared/types": ["./shared/src/types/index.ts"],
+      "@shared/*": ["./shared/src/*"],
+
+
+    },
+    "jsx": "preserve",
+    "incremental": true,
+    "noEmit": true
+  },
+  "exclude": ["node_modules"]
+}

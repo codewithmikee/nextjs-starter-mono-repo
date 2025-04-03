@@ -20,10 +20,10 @@ export const SessionProvider = ({ children }: { children: ReactNode }) => {
   const { data: session, status } = useSession();
 
   const value: SessionContextValue = {
-    userRole: session?.user?.role, // Extract role from session
+    userRole: (session?.user as any).role, // Extract role from session
     isAuthenticated: status === 'authenticated',
     isLoading: status === 'loading',
-    user: session?.user
+    // user: session?.user
   };
 
   return (

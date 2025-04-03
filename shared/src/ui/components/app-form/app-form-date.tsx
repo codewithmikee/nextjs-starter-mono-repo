@@ -24,9 +24,9 @@ import {
 } from '@/ui-components';
 import { Button } from '@/ui-components';
 import { cn } from '@/utils';
-import { CalendarIcon } from '@radix-ui/react-icons';
 import { format } from 'date-fns';
 import { AppFormMessage } from './commons/form-common-elements';
+import { Calendar as CalendarIcon } from 'lucide-react';
 import { Calendar } from '@/ui-components';
 
 // Base props for the date input

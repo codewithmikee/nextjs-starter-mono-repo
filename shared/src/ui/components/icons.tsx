@@ -28,10 +28,8 @@ import {
   Twitter,
   User,
   UserCircle2Icon,
-  UserPen,
   UserX2Icon,
   X,
-  HouseIcon,
   LucideBadgeDollarSign,
   TicketIcon,
   Gamepad2Icon,
@@ -42,7 +40,8 @@ import {
   Settings2Icon,
   LockIcon,
   HomeIcon,
-  Users
+  Users,
+  Home
 } from 'lucide-react';
 
 export type Icon = LucideIcon;
@@ -61,7 +60,7 @@ export const Icons = {
   employee: UserX2Icon,
   post: FileText,
   page: File,
-  userPen: UserPen,
+  userPen: UserCircle2Icon,
   user2: UserCircle2Icon,
   media: Image,
   settings: Settings,

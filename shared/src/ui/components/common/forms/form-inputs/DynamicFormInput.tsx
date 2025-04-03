@@ -21,8 +21,7 @@ import { Input } from '@/ui-components';
 import { CustomInputProps, DynamicFormInputProps } from '../form-types';
 import { useToggle } from '@/hooks/use-toggle';
 import { Button } from '@/ui-components';
-import { EyeClosed } from 'lucide-react';
-import { EyeOpenIcon } from '@radix-ui/react-icons';
+import { Eye, EyeOff } from 'lucide-react';
 import React, { useRef } from 'react';
 
 interface DynamicInputProps<T extends FieldValues>
@@ -51,7 +50,7 @@ export default function DynamicFormInput<T extends FieldValues>({
       variant={'outline'}
       size={'icon'}
     >
-      {passwordShowed ? <EyeClosed /> : <EyeOpenIcon />}
+      {passwordShowed ? <Eye /> : <EyeOff />}
     </Button>
   );
   return (
@@ -100,7 +99,7 @@ export function CustomFormInput<T extends FieldValues>({
       variant={'outline'}
       size={'icon'}
     >
-      {passwordShowed ? <EyeClosed /> : <EyeOpenIcon />}
+      {passwordShowed ? <Eye /> : <EyeOff />}
     </Button>
   );
 
