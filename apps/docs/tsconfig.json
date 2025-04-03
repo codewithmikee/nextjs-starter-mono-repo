@@ -2,7 +2,13 @@
 {
   "extends": "../../packages/typescript-config/nextjs.json",
   "compilerOptions": {
-    "plugins": [{ "name": "next" }]
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@shared/*": ["../../shared/src/*"],
+      "@/utils": ["../../shared/src/utils"],
+      "@/ui-components/*": ["../../shared/src/ui-components/*"]
+    }
   },
   "include": ["**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
