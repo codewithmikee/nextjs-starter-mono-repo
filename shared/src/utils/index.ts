@@ -1,8 +1,6 @@
 // Export all helpers
 export * from './helpers';
 
-// Export all constants
-export * from './constants';
 
 import { type ClassValue, clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';

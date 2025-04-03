@@ -5,7 +5,8 @@
   "files": [
     "tsconfig.json",
     "next.json",
-    "react.json"
+    "react.json",
+    "nextjs.json"
   ],
   "dependencies": {
     "@types/node": "catalog:",

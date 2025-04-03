@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
-import { IPrismaPagination } from '@shared/types'; // Import pagination type
+// import { IPrismaPagination } from '@/types/report/report-types'; // Import pagination type
 import { PaginationState } from '@tanstack/react-table';
 import {
   Pagination,
@@ -13,7 +13,8 @@ import {
 } from '@/ui-components';
 import { Button } from '@/ui-components';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { cn } from '@/utils';
+import { cn } from '@/lib/utils';
+import { IPrismaPagination } from '@/types';
 
 type QueryBasedPaginationProps = {
   backendPagination: IPrismaPagination; // Uses IPrismaPagination directly

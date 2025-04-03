@@ -17,7 +17,7 @@ import { Button } from '@/ui-components';
 import { VisuallyHidden } from '@radix-ui/react-visually-hidden';
 import { useToggle } from '@/hooks/use-toggle';
 import { toast } from 'sonner';
-import { GENERAL_ERROR_MESSAGE } from '@/utils/constants/common-constants';
+import { GENERAL_ERROR_MESSAGE } from '@/constants';
 
 type ChangeStatusDialogProps = {
   isOpen: boolean;

@@ -10,7 +10,7 @@ type KeyLabel = {
 
 function AppTab({ record }: { record: IAppTabRecord }) {
   const tabKeys: KeyLabel[] = Object.keys(record).map((tKey) => ({
-    key: tKey.toLowerCase().replaceAll(' ', ''),
+    key: tKey.toLowerCase().replace(/\s+/g, ''),
     label: tKey
   }));
 

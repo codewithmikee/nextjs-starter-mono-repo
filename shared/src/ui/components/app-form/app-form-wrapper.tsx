@@ -5,7 +5,7 @@ import { CardSkeleton } from '../common/PageSkeleton';
 import {
   AppFormWrapperProps,
   FormStatus} from './form-element-props';
-import { GENERAL_ERROR_MESSAGE } from '@/utils/constants/common-constants';
+import { GENERAL_ERROR_MESSAGE } from '@/constants';
 import { Separator } from '@/ui-components';
 import { cn } from '@/utils';
 import { AppFormAlert, FormActions } from './commons/form-common-elements';

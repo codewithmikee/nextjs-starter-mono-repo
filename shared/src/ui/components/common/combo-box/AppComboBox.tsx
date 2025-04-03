@@ -19,7 +19,7 @@ import {
 } from '@/ui-components';
 import { useQueryParams } from '@/hooks/use-query-params';
 
-export type ControllerComboBoxProps<T> = {
+ type ControllerComboBoxProps<T> = {
   data: T[];
   labelKey: keyof T;
   valueKey: keyof T;
