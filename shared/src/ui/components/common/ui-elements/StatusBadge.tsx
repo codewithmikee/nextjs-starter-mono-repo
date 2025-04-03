@@ -1,6 +1,6 @@
 // components/ui/status-badge.tsx
 import { Badge } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { ActiveStatus, TicketStatus } from '@/types/api-calls/backend-enums';
 // import { getStatusMapForTicketStatus } from '@/utils';
 import { AppBadge } from './app-badge';

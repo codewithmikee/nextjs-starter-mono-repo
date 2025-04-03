@@ -23,7 +23,7 @@ import {
   PopoverTrigger
 } from '@/ui-components';
 import { Button } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { CalendarIcon } from '@radix-ui/react-icons';
 import { format } from 'date-fns';
 import { AppFormMessage } from './commons/form-common-elements';

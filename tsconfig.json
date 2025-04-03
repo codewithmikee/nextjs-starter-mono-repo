@@ -19,7 +19,8 @@
     "baseUrl": ".",
     "paths": {
       "@shared/*": ["./shared/src/*"],
-      "@rambo/*": ["./rambo-shared/src/*"],
+      "@packages/*": ["./packages/*"],
+      // "@rambo/*": ["./rambo-shared/src/*"],
       "@/*": ["./src/*"]
     }
   },

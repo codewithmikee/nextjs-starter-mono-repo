@@ -16,7 +16,7 @@ import {
   SelectTrigger,
   SelectValue
 } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import {
   addDays,
   format,

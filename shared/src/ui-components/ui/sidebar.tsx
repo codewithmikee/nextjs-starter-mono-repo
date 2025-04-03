@@ -13,7 +13,7 @@ import {
 } from '@/ui-components/ui/sheet';
 
 import { useIsMobile } from '@/hooks/use-mobile';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { Button } from '@/ui-components/ui/button';
 import { Input } from '@/ui-components/ui/input';
 import { Separator } from '@/ui-components/ui/separator';

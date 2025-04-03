@@ -9,6 +9,7 @@ import {
 
 import { z } from 'zod';
 import { AxiosResponse } from 'axios';
+import { LabelValueProp } from '@/types';
 
 export type CommonFormElementProps = {
   label?: string;
@@ -16,11 +17,6 @@ export type CommonFormElementProps = {
   description?: string;
   disabled?: boolean;
   layout?: 'vertical' | 'horizontal';
-};
-
-export type LabelValueProp = {
-  label: string | React.ReactNode;
-  value: string;
 };
 
 export type FormSelectContextValue<T extends FieldValues> = {

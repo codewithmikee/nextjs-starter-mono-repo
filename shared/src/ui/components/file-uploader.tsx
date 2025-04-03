@@ -13,7 +13,7 @@ import { Button } from '@/ui-components';
 import { Progress } from '@/ui-components';
 import { ScrollArea } from '@/ui-components';
 import { useControllableState } from '@/hooks/use-controllable-state';
-import { cn, formatBytes } from '@/lib/utils';
+import { cn, formatBytes } from '@/utils';
 
 interface FileUploaderProps extends React.HTMLAttributes<HTMLDivElement> {
   /**

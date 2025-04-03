@@ -16,7 +16,7 @@ import {
 } from '@/ui-components';
 import { AppFormMessage } from '../../commons/form-common-elements';
 import { CommonFormElementProps } from '../../form-element-props';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import FormElementLayout from '../FormElementLayout';
 
 // Base props for the text input

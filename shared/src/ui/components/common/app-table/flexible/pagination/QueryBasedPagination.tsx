@@ -13,7 +13,7 @@ import {
 } from '@/ui-components';
 import { Button } from '@/ui-components';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 
 type QueryBasedPaginationProps = {
   backendPagination: IPrismaPagination; // Uses IPrismaPagination directly

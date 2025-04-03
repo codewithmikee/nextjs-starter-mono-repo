@@ -17,7 +17,7 @@ import {
   FormLabel
 } from '@/ui-components';
 import { Slider } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { AppFormMessage } from './commons/form-common-elements';
 
 // Base props for the range input

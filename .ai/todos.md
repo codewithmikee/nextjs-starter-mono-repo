@@ -45,3 +45,23 @@
 - [ ] Remove old package directories
 - [ ] Update documentation
 - [ ] Update CI/CD if needed
+
+# Package Standardization Tasks
+
+## High Priority
+- [ ] Move common dependencies from root package.json to shared package
+- [ ] Standardize version numbers across all packages
+- [ ] Update package.json files to use workspace:* for internal dependencies
+- [ ] Ensure all packages use the same major versions of shared dependencies
+
+## Dependencies to Standardize
+- [ ] next-auth (currently ^4.24.6)
+- [ ] @faker-js/faker (currently ^9.6.0)
+- [ ] axios (currently ^1.8.4)
+- [ ] nuqs (currently ^2.4.1)
+- [ ] query-string (currently ^9.1.1)
+
+## Package Structure
+- [ ] Review and update workspace configuration
+- [ ] Ensure proper peer dependencies
+- [ ] Set up proper version constraints

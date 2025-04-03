@@ -4,7 +4,7 @@ import { DataTableSkeleton } from '@/ui-components';
 import { Heading, HeadingDescriptions } from '@/ui-components';
 import Link from 'next/link';
 import { buttonVariants } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { Separator } from '@/ui-components';
 
 type Action =

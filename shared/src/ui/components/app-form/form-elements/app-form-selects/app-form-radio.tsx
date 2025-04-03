@@ -17,7 +17,7 @@ import {
 import { AppFormMessage } from '../../commons/form-common-elements';
 import { RadioGroup, RadioGroupItem } from '@/ui-components';
 import { Label } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 
 // Types for radio options
 export type RadioOption = {

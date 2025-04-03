@@ -17,7 +17,7 @@ import {
   PopoverTrigger
 } from '../ui/popover';
 import { Separator } from '../ui/separator';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { PlusCircledIcon } from '@radix-ui/react-icons';
 import { CheckIcon } from 'lucide-react';
 import { Options } from 'nuqs';

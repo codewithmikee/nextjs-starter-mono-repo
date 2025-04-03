@@ -4,7 +4,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger
 } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { ChevronsUpDown, X } from 'lucide-react';
 import { ReactNode, useState } from 'react';
 

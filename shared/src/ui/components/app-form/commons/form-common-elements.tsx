@@ -1,7 +1,7 @@
 // common-form-elements.ts
 import { ReactNode } from 'react';
 import { Label } from '@radix-ui/react-label';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 
 import { FormMessage } from '@/ui-components';
 import { Alert, AlertDescription, AlertTitle } from '@/ui-components';

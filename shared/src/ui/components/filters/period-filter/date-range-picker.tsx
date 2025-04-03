@@ -8,7 +8,7 @@ import {
   PopoverContent,
   PopoverTrigger
 } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import {
   format,
   startOfToday,

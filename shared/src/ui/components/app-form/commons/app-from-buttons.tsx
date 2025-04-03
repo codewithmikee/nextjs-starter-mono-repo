@@ -1,5 +1,5 @@
 import { Button } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { ReactNode } from 'react';
 import {
   ButtonGroupProps,

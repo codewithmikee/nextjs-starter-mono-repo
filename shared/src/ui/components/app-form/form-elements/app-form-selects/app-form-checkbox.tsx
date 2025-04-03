@@ -17,7 +17,7 @@ import {
 import { AppFormMessage } from '../../commons/form-common-elements';
 import { Checkbox } from '@/ui-components';
 import { Label } from '@/ui-components';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 
 // Types for checkbox options
 export type CheckboxOption = {

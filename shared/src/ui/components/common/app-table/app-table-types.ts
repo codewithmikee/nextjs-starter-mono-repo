@@ -34,7 +34,7 @@ export type AppTableFilterDataProps<TData> = {
   resetFilters: () => void;
 };
 
-export type AppTableProps<TData, TValue> = {
+export type SimpleAppTableProps<TData, TValue> = {
   columns: AppColumnDef<TData>[];
   titleKey: string;
   actionKey?: string;

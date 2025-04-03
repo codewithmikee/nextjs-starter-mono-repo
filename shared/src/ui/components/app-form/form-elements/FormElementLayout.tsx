@@ -1,6 +1,6 @@
 import React, { PropsWithChildren } from 'react';
 import { CommonFormElementProps } from '../form-element-props';
-import { cn } from '@/lib/utils';
+import { cn } from '@/utils';
 import { FormControl, FormLabel } from '@/ui-components';
 
 function FormElementLayout({
